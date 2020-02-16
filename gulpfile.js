@@ -15,7 +15,7 @@ function css_style(done) {
         }))
         .on('error', console.error.bind(console))
         .pipe(autoprefixer({
-            browsers: ['last 3 version'],
+            browsers: ['last 2 version'],
             cascade: false
         }))
         .pipe(rename({suffix: '.min'}))
