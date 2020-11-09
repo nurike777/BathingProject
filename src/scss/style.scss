@@ -60,7 +60,7 @@ body{
         text-decoration: none;
         display: flex;
         align-items: center;
-        
+
         &:hover{
             border-radius: 10px;
             background-color: #ffc501;
@@ -76,7 +76,7 @@ body{
         @include textNormal;
         line-height: 1.5;
         letter-spacing: 0.25px;
-        
+
         @media (max-width: 480px) {
             display: none;
         }
@@ -336,7 +336,7 @@ body{
 }
 .content__preview_input:checked + .check__box{
     background-image: url('../assets/images/icons/star-copy-5.svg');
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -463,7 +463,8 @@ body{
         width: 42px;
         height: 42px;
         top: 45px;
-        left: 86px;
+        left: 40%;
+        padding-left: 3px;
         border-radius: 50%;
         background-color: #ffc501;
         display: flex;
